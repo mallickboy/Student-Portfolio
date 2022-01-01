@@ -29,7 +29,7 @@ h2{
 #background-video {
     display: flexbox;
     width: 100vw;
-    height: 100vH;
+    height: 100vh;
     object-fit: cover;
     position: fixed;
     left: 0;
