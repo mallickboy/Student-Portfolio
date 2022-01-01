@@ -1,0 +1,54 @@
+body{
+    text-align: left;
+    overflow-x: hidden;
+    color: rgb(255, 233, 233);
+}
+.heading{
+    text-align: center;
+    
+}
+.like{
+    display: flexbox;
+    font-size: 40px;
+    color: wheat;
+   
+}
+h1{
+    font-size:65px ;
+    color: rgb(255, 95, 74);
+}
+h2{
+    text-align: center;
+    color: rgb(99, 52, 255);
+}
+.about{
+    display: flexbox;
+    overflow-x: hidden;
+    font-size: 35px;
+}
+#background-video {
+    display: flexbox;
+    width: 100vw;
+    height: 100vH;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .ul1{
+      display: flexbox;
+      padding: 60px;
+      color: rgb(54, 238, 255);
+  }
+  .ul2{
+    display: flexbox;
+    padding: 60px;
+    color: rgb(108, 255, 49);
+}
+.contact{
+    display: flexbox;
+    padding: 50px;
+}
