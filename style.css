@@ -1,98 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;  /* providing default margin and padding to be 0 */
+body{
+    text-align: left;
+    overflow-x: hidden;
+    color: rgb(255, 233, 233);
 }
-
-/* home page styling */
-
-.homePage{                                      /* selecting div with class "homePage" and adding styling to it */
-    display: flex;                              /* creating a flex box */
-    justify-content: space-around;   
-    height: 100vh;
-    align-items: center;
+.heading{
+    text-align: center;
+    
 }
-
-.myImage img{                                  /* selecting div with class "myImage" then navigating to img tag inside it, and adding styling to it */
-    height: 18rem;
-    width: auto;
-    border-radius: 1rem;
-}
-
-.name{                                         /* selecting div with class "name" and adding styling to it */
-    font-size: 3rem; 
-}
-
-.intro p{                                      /* selecting div with class "intro" then navigating to p tag inside it, and adding styling to it */
-    font-size: 2rem;
-    line-height: 3rem;
-}
-
-.your_button{                                  /* selecting button with class "your_button" and adding styling to it */
-    font-size: 1rem;
-    padding: 5px;
-    cursor: pointer;
-    background-color: rgb(42, 42, 255);
-    border-radius: 5px;
-    width:100px;
-    height:50px;
-    border:2px solid white;
-    color:white;
-    text-transform: capitalize;
-}
-.your_button:hover{                           /* here we add a special animation to button when it is hovered (hover: when a cursor roams in the specified setion it is the hover state for that element) */
+.like{
+    display: flexbox;
+    font-size: 40px;
+    color: wheat;
    
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
-/* about me */
-.about{                                       /* selecting div with class "about" and adding styling to it */
-    min-height: 60vh;
+h1{
+    font-size:65px ;
+    color: rgb(255, 95, 74);
 }
-
-.about_heading{                               /* selecting div with class "about_heading" and adding styling to it */
-    font-size: 3rem;
+h2{
     text-align: center;
-    text-decoration: underline;
-    font-weight:600;
+    color: rgb(99, 52, 255);
 }
-
-/* contact */
-.contact_sec{                                /* selecting div with class "contact_sec" and adding styling to it */
-    height: 60vh;
-    width:70vw;
-    margin: 0 auto;
+.about{
+    display: flexbox;
+    overflow-x: hidden;
+    font-size: 35px;
 }
-
-.contact_heading{                            /* selecting div with class "contact_heading" and adding styling to it */
-    font-weight:600;
-    font-size: 3rem;
-    text-align: center;
-    text-decoration: underline;
+#background-video {
+    display: flexbox;
+    width: 100vw;
+    height: 100vH;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .ul1{
+      display: flexbox;
+      padding: 60px;
+      color: rgb(54, 238, 255);
+  }
+  .ul2{
+    display: flexbox;
+    padding: 60px;
+    color: rgb(108, 255, 49);
 }
-
-.contact_info{                               /* selecting div with class "contact_info" and adding styling to it */
-    font-size:1.3em;
-    font-weight: 600;
-    margin-top:10vh;
-}
-.data{                                       /* selecting div with class "data" and adding styling to it */
-    font-weight:initial;
-}
-
-.Email,.mobile_no,.linkdin,.github,.others{ /* selecting many divs with the class listed and adding same styling to all of them */
-    padding:2vh 0;
-}
-
-span a{                                     /* selecting span and then navigating to a tag in it and adding styling to it */
-    color:black;
-}
-
-span a:hover{                               /* here we add a special animation to anchor tag when it is hovered (hover: when a cursor roams in the specified setion it is the hover state for that element) */
-    color:blue;
-}
-
-
-.para{                                      /* selecting div with class "para" and adding styling to it */
-    width:70vw; 
-    margin:8vh auto;
-    font-size: 2em;
+.contact{
+    display: flexbox;
+    padding: 50px;
 }
