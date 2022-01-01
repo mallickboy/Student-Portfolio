@@ -5,52 +5,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Portfolio Website</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <!-- We will be creating many elements in this document with some class (to add some styling later) -->
-    <!-- home page -->
-    <div id="home" class="homePage">
-        <div class="intro">                                  <!-- creating a master div to have child elements in it -->
-            <div class="name">Hi, I am &#60;name&#62;</div>  <!-- creating a div to enter your name (edit your name here) -->
-            <p>Frontend developer</p>                        <!-- paragraph tag -->
-            <button class="your_button">button</button>      <!-- creating a button -->
-        </div>
-        <div class="myImage">                                <!-- always a good habbit to add master divs -->
-            <img src="https://miro.medium.com/max/3960/0*HICLyAdNSIyT0ODU.jpg" alt="MyImage">  <!-- adding a image using url -->
-        </div>
+<div class="heading">
+    <h1>Hi I am Tamal Mallick</h1>
+<h3>I am a Frontend developer and member of GDSE club IIIT Kalyani.
+</h3>
+<a href="https://github.com/mallickboy/mallickboy" class="like">Give a Like😍</a>
+</div>
+
+
+<div>
+    <div class="video">
+        <video id="background-video" autoplay loop muted poster="">
+            <source src="https://vod-progressive.akamaized.net/exp=1641067670~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3071%2F11%2F290359913%2F1099990768.mp4~hmac=47edac58f53b635b4a5a6ad0affdf42b734a4f532627817fc52ffdbdce4074b7/vimeo-prod-skyfire-std-us/01/3071/11/290359913/1099990768.mp4?filename=Motion+-+18246.mp4" type="video/mp4">
+        </video>
     </div>
+
+
 
     <!-- about me -->
     <div id="aboutme" class="about">                         <!-- again a master div -->
         <div class="about_heading">                          <!-- child div for heading -->
-            About me
-        </div>
+            <h2>About me</h2>
+        
         <!-- adding a paragraph tag to write "about me", edit it and write about you -->
-        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates provident molestias a
-            animi facilis iusto voluptatum repellat eligendi consequatur distinctio placeat mollitia veritatis
-            recusandae, ad, quasi commodi enim quos! Quasi aspernatur veniam, blanditiis sint necessitatibus dicta
-            libero voluptatibus reiciendis asperiores nemo maiores ducimus corrupti magnam error voluptatum ab velit.
+        <p class="para">Myself Tamal Mallick.I am from New Barrackpore,West Bengal.
+            After passing Higher Secondery examination currently I
+             am studying Computer Science in IIIT Kalyani.In carrier path I am well interested
+              in :
+              <ul class="ul1">
+                <li>Creating websites and learn more in this field.</li>
+                <li>Learning about the finantial markets.</li>
+                <li>Blockchain tecnology.</li>
+                <li>Learn about digital marketing.</li>
+                <li>Android development.</li>
+                <li>Startup & Entrepreneurship.</li>
+              </ul> 
+              In social and cultural part I value :
+              <ul class="ul2">
+                  <li>Participating in debate competition.</li>
+                  <li>Playing football & cricket.</li>
+                  <li>Learn singing and dancing.</li>
+                  <li>Develop the quality of english speaking.</li>
+                  <li>Learn and participate in public speaking.</li>
+                  
+              </ul>
+              In this four year of college I want to learn many different things
+               from my teachers, seniors, juniors and make many friends and enjoy our college life.
+               In conclusion my dream is to learn & explore many different things
+             and make this college life memorable.
         </p>
-    </div>
+    </div><br>
 
-    <!-- contact -->
-    <div id="contact" class="contact_sec">                  <!-- adding a master div again -->
-        <div class="contact_heading">
-            Contact Me                                      <!-- adding a chiid div for heading -->
-        </div>
-        <div class="contact_info">
-            <!-- adding more divs for personal details, edit them! -->
-            <div class="Email">Email : <span class='data'>gdsc@example.com</span></div>
-            <div class="mobile_no">Mobile no : <span class='data'>+91 XXXXXXXXXX</span></div>
-            <!-- adding anchor tag to directly redirect user to your profile, add links to your profile in href -->
-            <div class="linkdin">linkdin :<span class='data'> <a
-                        href="https://www.linkedin.com/company/gdsc-iiit-kalyani/">Linkdin IN</a></span></div>  
-            <div class="github">Github : <span class='data'> <a href="https://github.com/GDSC-IIIT-Kalyani">Github</a></span></div>
-            <div class="others">Others :<span class='data'> <a href="https://gdsc.bio.link/">BIO</a></span></div>
-        </div>
+<div class="contact">
+    <h2>Contact Me</h2>
+        Email : 
+        <input type="text" value="be0safe0in0internet@gmail.com" id="myInput">
+
+        <button onclick="myFunction()">Copy text</button><br><br>
+        Mobile no : +91 7044140xxx 
+        <input type="text" value="+91 7044140xxx" id="myInput">
+
+        <button onclick="myFunction()">Copy text</button>
+        (Mail for last 3 digits)<br><br>
+        Tweeter : 
+        <input type="text" value="@Tamal_Mallick_" id="myInput">
+
+        <button onclick="myFunction()">Copy text</button><br><br>
+        Github : mallickboy
+        <input type="text" value="mallickboy" id="myInput">
+
+        <button onclick="myFunction()">Copy text</button><br><br>
+        Instagram : 
+    <input type="text" value="mallick.boy_" id="myInput">
+
+    <button onclick="myFunction()">Copy text</button><br>
+</div>
+<center><a href="https://github.com/mallickboy/mallickboy" class="like">Like Here😍</a></center>
+
+
 </body>
 
 </html>
