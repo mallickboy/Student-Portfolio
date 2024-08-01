@@ -7,3 +7,5 @@ With a keen interest in both emerging technologies and time-tested principles, I
 If you're looking for a friendly contributor for your private or open-source projects, I'm eager to collaborate and bring fresh perspectives to the table. Feel free to reach out!
 
 Explore my repositories to see some of the exciting work I’ve been involved in. If you have any doubts or a great project idea and need a reliable partner, don’t hesitate to get in touch!
+
+[![An image of @tamal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/tamal)](https://holopin.io/@tamal)
