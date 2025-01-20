@@ -14,5 +14,4 @@ Explore my repositories to see some of the exciting work I’ve been involved in
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mallickboy&show_icons=true&locale=en" alt="mallickboy" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mallickboy&" alt="mallickboy" /></p>
 
