@@ -9,3 +9,5 @@ If you're looking for a friendly contributor for your private or open-source pro
 Explore my repositories to see some of the exciting work I’ve been involved in. If you have any doubts or a great project idea and need a reliable partner, don’t hesitate to get in touch!
 
 [![An image of @tamal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/tamal)](https://holopin.io/@tamal)
+
+[![mallickboy's GitHub stats](https://github-readme-stats.vercel.app/api?username=mallickboy)](https://github.com/mallickboy/github-readme-stats)
