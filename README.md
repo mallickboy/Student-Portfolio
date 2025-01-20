@@ -10,4 +10,9 @@ Explore my repositories to see some of the exciting work I’ve been involved in
 
 [![An image of @tamal's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/tamal)](https://holopin.io/@tamal)
 
-[![mallickboy's GitHub stats](https://github-readme-stats.vercel.app/api?username=mallickboy)](https://github.com/mallickboy/github-readme-stats)
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mallickboy&show_icons=true&locale=en&layout=compact" alt="mallickboy" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mallickboy&show_icons=true&locale=en" alt="mallickboy" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mallickboy&" alt="mallickboy" /></p>
+
